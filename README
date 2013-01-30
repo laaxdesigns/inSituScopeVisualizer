@@ -1,0 +1,22 @@
+inSituScopeVisualizer
+
+ABOUT
+
+inSituScopeVisualizer is an application for displaying, sorting, clustering, 
+filtering and partitioning images by their attributes.  The software assumes 
+the user has a directory of image files and an associated csv file containing
+columns of attributes for each image.  The top row of the csv file should be the 
+column labels and the first column should contain the filename of the image that 
+the attributes describe.
+
+INSTALLATION
+
+inSituScopeVisualizer should be put in /apps/{someDir} in your openFrameworks
+installation.  The dependencies are: 
+ofxFatLines
+ofxUI
+ofxSelfOrganizingMap
+ofxOpenCv
+ofxXmlSettings
+
+It has been tested on OS X 10.6 and 10.7 in OF v0073
